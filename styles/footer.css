@@ -35,7 +35,7 @@
 @media screen and (min-width: 768px) {
     .secao__footer__banner{ 
        
-        background-image: url("/assets/4a8df6479660a3c52ac82e710a0a4644.jfif");
+        background-image: ("../assets/4a8df6479660a3c52ac82e710a0a4644.jfif");
         background-size: cover;
         width: 100vw;
         height: 40vw;
