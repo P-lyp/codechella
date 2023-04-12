@@ -1,0 +1,121 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    text-align: center;
+}
+
+.codechella-logo__footer {
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+}
+
+.texto__footer {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 2vw;
+}
+
+.container__icone__footer {
+    margin-bottom: 8vw;
+}
+
+.icone__footer {
+    margin-right: 2vw;
+}
+
+.texto__footer_1440 {
+    display: none;
+}
+ 
+@media screen and (min-width: 768px) {
+    .secao__footer__banner{ 
+       
+        background-image: url("/assets/4a8df6479660a3c52ac82e710a0a4644.jfif");
+        background-size: cover;
+        width: 100vw;
+        height: 40vw;
+        align-self: stretch;
+        background-repeat: no-repeat;
+        z-index: 1;
+        mix-blend-mode: multiply;
+    }
+
+    .codechella-logo__footer {
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .container__texto__icone {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .icone__footer {
+        margin-left: 1vw;
+        margin-right: 0;
+    }
+
+    .container__icone__footer, .texto__footer {
+        margin: 0;
+    }
+
+    .texto__footer_1440 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .secao__footer__banner {
+        width: fill;
+        height: 35vw;
+    }
+
+    .container__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    .container__footer-texto {
+        text-align: start;
+        width: 25vw;
+    }
+
+    .texto__footer {
+        display: none;
+    }
+    
+    .texto__footer_1440 {
+        display: inline-block;
+        font-family: var(--fonte-texto);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+
+    }
+
+    .divisao-1440_footer {
+        text-align: start;
+    }
+
+    .codechella-logo__footer {
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+        width: 85%;
+    }
+
+    .icone__footer {
+        margin-right: 0.5vw;
+        margin-left: 0;
+    }
+
+} 

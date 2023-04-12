@@ -1,0 +1,137 @@
+.secao__sobre {
+    margin-top: 80vw;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobre__texto {
+    margin-top: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.sobre__texto__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10vw;
+    line-height: 37.57px;
+}
+
+.sobre__texto__descricao {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.sobre__botao {
+    margin-top: 8vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #444444;
+    background-color: var(--roxo-boreal);
+    height: 10vw ;
+}
+
+.botao__texto {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.sobre__imagem-768 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .secao__sobre {
+        margin-top: 4vw;
+    }
+
+    .sobre__texto__titulo {
+        padding: 0 15vw;
+        margin-bottom: 3vw;
+    }
+
+    .container__sobre__imagem {
+        width: 100%;
+    }
+
+    .sobre__imagem {
+        display: none;
+    }
+
+    .sobre__imagem-768 {
+        display: inline-block;
+        width: 80vw;
+    }
+
+    .sobre__texto {
+        margin: 3vw;
+    }
+
+    .sobre__botao {
+        display: flex;
+        height: 8vw;
+        padding: 0;
+        margin-top: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .secao__sobre {
+        margin-top: 34vw;
+    }
+
+
+    .container__sobre__imagem {
+        width: 170vw;
+    }
+
+    .sobre__imagem-768 {
+        width: 100%;
+    }
+
+    .sobre__texto {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sobre__texto__titulo {
+        padding: 0 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .container__sobre {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 8vw;
+        gap: 6vw;
+    }
+
+    .container__sobre-texto-botao {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+       
+    }
+
+    .sobre__botao {
+        width: 55%;
+        height: 4vw;
+    }
+       
+}

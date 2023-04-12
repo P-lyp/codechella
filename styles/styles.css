@@ -1,0 +1,29 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./banner.css);
+@import url(.//about.css);
+@import url(.//lineup.css);
+@import url(.//footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap');
+
+:root {
+    --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --roxo-boreal: #4650BD;
+    --verde-escuro: #008364;
+    --fonte-texto: 'Raleway', sans-serif;
+    --fonte-titulo: 'Calistoga', cursive;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    color: white;
+    background: var(--gradiente-boreal);
+    /* background: var(--gradiente-boreal);
+    background-repeat:no-repeat; */
+    
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+}

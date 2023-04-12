@@ -1,0 +1,55 @@
+.secao__banner {
+    position:absolute;
+    top: 0vw;
+    background-image: url("../assets/banner.jfif");
+    background-size: cover;
+    width: 100vw;
+    height: 100vw;
+    background-repeat: no-repeat;
+    z-index: 1;
+} 
+
+.container__textos {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    top: 50vw;
+    width: fill;
+    gap: 3vw;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.texto__banner {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .secao__banner {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+   .secao__banner {
+    background-size: cover;
+    display: inline-block;
+    top: -40vw;
+    width: fill;
+    height: 76vw;
+   }
+
+   .container__textos {
+    top: 55vw;
+   }
+
+   .texto__banner {
+    font-size: 64px;
+   }
+
+} 
